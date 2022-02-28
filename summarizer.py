@@ -11,7 +11,7 @@ output_folder = sys.argv[2]
 k = sys.argv[3] 
 
 
-input_folder = os.path.abspath("texts") #set the input folder (i chose 10 files from the previous task)
+input_folder = os.path.abspath("texts") #set the input folder 
 
 stop_words_set = set(stopwords.words("english")) #stop words for english language
 
